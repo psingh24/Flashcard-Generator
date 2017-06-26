@@ -1,0 +1,19 @@
+{
+  "name": "flashcardgen",
+  "version": "1.0.0",
+  "description": "flash card generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psingh24/Flashcard-Generator.git"
+  },
+  "author": "Prabhdeep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psingh24/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/psingh24/Flashcard-Generator#readme"
+}
