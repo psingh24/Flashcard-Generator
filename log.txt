@@ -1,1 +1,1 @@
-{"front":"What is your name?","back":"paul","type":"basic"};{"front":"What is your name?","back":"paul","type":"basic"}
+{"text":"What is my name?","cloze":"name","fullText":"What is my _____?","type":"cloze"};{"front":"yes","back":"yes","type":"basic"};{"text":"you are the worst","cloze":"you","fullText":"_____ are the worst","type":"cloze"};

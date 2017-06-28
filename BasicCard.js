@@ -9,11 +9,11 @@ function BasicCard(front, back) {
         // var front = this.front;
         // var back = this.back;
         
-        // var output = "Front: "+front+", Back: "+back
-        var basicData = {
-            front: this.front,
-            back: this.back,
-            type: "basic"
+        // var output = "Front: "+this.front+", Back: "+this.back+", Type: basic;"
+        var basicData =  {
+            "front": this.front,
+            "back": this.back,
+            "type": "basic"
         }
         // var data = JSON.stringify(basicData, null, 2)
         fs.appendFile("log.txt", JSON.stringify(basicData) + ";", function(err) {
