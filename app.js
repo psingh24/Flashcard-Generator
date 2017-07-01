@@ -81,15 +81,22 @@ function app() {
         );
         newBasicCard.createCard();
 
-        setTimeout(app, 2000);
+        setTimeout(app, 1000);
       } else if (answers.route === "Make a Cloze Card") {
-        var newClozeCard = new ClozeCard(
-          answers.clozeCardFull,
-          answers.clozeCardhiddens
-        );
-        newClozeCard.createCard();
+        if (answers.clozeCardFull.includes(answers.clozeCardhiddens)) {
+          var newClozeCard = new ClozeCard(
+            answers.clozeCardFull,
+            answers.clozeCardhiddens
+          );
+          newClozeCard.createCard();
 
-        setTimeout(app, 2000);
+          setTimeout(app, 1000);
+        } else {
+          console.log(
+            "Error: Sorry your hidden word was not in the question, try again."
+          );
+          setTimeout(app, 1000);
+        }
       } else if (answers.route === "Show me existing cards") {
         fs.readFile("log.txt", "utf8", function(err, data) {
           //turn the log file into an array
@@ -98,7 +105,7 @@ function app() {
           questionsArray.splice(questionsArray.length - 1);
           console.log(questionsArray);
 
-          setTimeout(app, 2000);
+          setTimeout(app, 1000);
         });
       } else if (answers.route === "Quiz me!") {
         fs.readFile("log.txt", "utf8", function(err, data) {
