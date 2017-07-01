@@ -1,1 +1,1 @@
-{"front":"what is the name of the first preseident","back":"george washington","type":"basic"};{"front":"What is my name","back":"Prabhdeep ","type":"basic"};
+{"front":"what is the name of the first preseident","back":"george washington","type":"basic"};{"front":"What is my name","back":"Prabhdeep ","type":"basic"};{"text":"How much does jaanu love me?","cloze":"jaanu","fullText":"How much does _____ love me?","type":"cloze"};

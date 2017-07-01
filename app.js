@@ -5,7 +5,7 @@ var fs = require("fs");
 
 //Greeting
 console.log(
-  "****************      FlashCard Genetator!     ***********************"
+  "****************      FlashCard Generator!     ***********************"
 );
 console.log(
   "*   You can make two types of cards, Basic and Cloze. A Basic card   *"
