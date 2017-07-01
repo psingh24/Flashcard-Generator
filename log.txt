@@ -1,1 +1,19 @@
-{"text":"What is my name?","cloze":"name","fullText":"What is my _____?","type":"cloze"};{"front":"yes","back":"yes","type":"basic"};{"text":"you are the worst","cloze":"you","fullText":"_____ are the worst","type":"cloze"};
+{
+    "front": "hello",
+    "back": "eedwe",
+    "type": "basic"
+}; {
+    "text": "wkjegd",
+    "cloze": "wejhgf",
+    "fullText": "wkjegd",
+    "type": "cloze"
+}; {
+    "front": "h",
+    "back": "g",
+    "type": "basic"
+}; {
+    "text": "h",
+    "cloze": "g",
+    "fullText": "h",
+    "type": "cloze"
+};
