@@ -1,7 +1,7 @@
 FLASHCARD GENERATOR
 -------------------
 
-This Node app lets you creat flash cards using the command line. You can make two types of cards, Basic and Cloze. A Basic card will have a question on the front and the answer on the back. A Cloze card will have a sentence or question that has had some of its text removed. Once you make your cards, test your knowledge by quizzing yourself!
+This Node app lets you creat flash cards using the command line. You can make two types of cards, Basic and Cloze. A Basic card will have a question on the front and the answer on the back. A Cloze card will have a sentence or question that has had some of its text removed. Once you make your cards, test your knowledge by quizzing yourself.
 
 This node add use the [inquirer npm package](https://www.npmjs.com/package/inquirer)
 
